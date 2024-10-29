@@ -45,6 +45,16 @@ Lancer l'installation
 Vérifier l'installation via la commande python --version
 Une alternative est d'installer Python via le Microsoft Store
 
+### IDLE : Environnement de Développement Intégré
+IDLE (Integrated Development and Learning Environment) est l'environnement de développement intégré pour Python, conçu pour faciliter l'apprentissage et le développement. Il est entièrement écrit en Python et fonctionne sur plusieurs plateformes, y compris Windows, Unix et macOS.
+#### Fonctionnalités Principales
+- Console Interactive : Permet d'exécuter du code Python ligne par ligne avec coloration syntaxique pour une meilleure lisibilité.
+- Éditeur de Texte : Offre des fonctionnalités avancées comme l'auto-complétion, l'indentation automatique et la gestion des erreurs.
+- Outils de Débogage : Inclut des options pour définir des points d'arrêt et inspecter les variables.
+- Gestion des Fichiers : Facilite la création, l'ouverture et la sauvegarde de scripts Python.
+- Documentation Intégrée : Accès direct à la documentation Python pour aider les utilisateurs à comprendre les fonctionnalités.
+IDLE est particulièrement adapté aux débutants en raison de son interface intuitive, mais il peut être limité pour des projets plus complexes, où d'autres IDE comme VSCode ou PyCharm pourraient être plus appropriés.
+
 
 ## Facilite la vie en installant Anaconda pour avoir tous les packages
 
@@ -71,4 +81,8 @@ Télécharger le programme d'installation depuis le site officiel d'anaconda
 
 If you have any feedback, please reach out to us.
 
+## Sources 
 
+https://www.anaconda.com/download/success
+
+https://www.python.org/downloads/
