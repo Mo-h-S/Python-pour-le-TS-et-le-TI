@@ -28,9 +28,9 @@ Des entreprises comme Netflix, Spotify et NASA utilisent Python pour diverses ap
 - Système d'exploitation compatible (Windows 7+, macOS 10.9+, ou Linux)
 - Au moins 4 Go de RAM et 5 Go d'espace disque1
 
-## Deux choix pour avoir python sur le systeme.
+## Deux choix pour installer Python sur votre système.
 
-#### Installation de Python sur différents systèmes avec un IDLE
+#### Installation de Python sur différents systèmes et un IDLE
 Télécharger le programme d'installation depuis le site officiel de Python 
 | Système   | Lien      | 
 | :-------  | :-------  | 
@@ -71,11 +71,48 @@ Télécharger le programme d'installation depuis le site officiel d'anaconda
 | Ubuntu | :https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh  | 
 | MacOS | https://repo.anaconda.com/archive/Anaconda3-2024.10-1-MacOSX-arm64.pkg  | 
 
+Ouvrir Anaconda Navigator : Lancez Anaconda Navigator depuis le menu de votre système d'exploitation ou en utilisant le terminal avec la commande anaconda-navigator.
 
+- Lancer Spyder : Dans Anaconda Navigator, cliquez sur l'icône de Spyder pour l'ouvrir / Vous pouvez également lancer Spyder directement depuis le terminal(anaconda prompt) en tapant spyder.
 
+  Et voila !!!!!
 
+## Avant de commencer
 
+### Configuration de spyder 
 
+#### Configuration de la sortie graphique
+Ouvrez Spyder.
+- Allez dans le menu Outils.
+- Sélectionnez Préférences.
+- Dans la fenêtre des préférences, allez dans IPython console > Graphiques (Choisissez graphique) et vous pouvez configurer la sortie graphique selon vos besoins (par exemple, choisir entre une sortie inline ou une nouvelle fenêtre).
+
+##### Effacer les variables avant l'exécution
+- Allez dans Console d'IPython > Exécution.
+- Cochez l'option Effacer toutes les variables avant de démarrer une exécution.
+
+##### Configuration de l'aide dans les préférences
+- Allez dans Aide. 
+- Ici, vous pouvez configurer comment vous souhaitez que l'aide s'affiche (par exemple, en ligne, dans une fenêtre séparée, etc.).
+- Cochez toutes les cases.
+
+#### Indentation automatique
+Allez dans Préférences.
+- Sous Editeur > Indentation, vous pouvez configurer l'indentation automatique. Vous pouvez choisir entre des tabulations ou des espaces et définir le nombre d'espaces par indentation.
+- Pour respecter la PEP8
+- Sélectionnez Utiliser des espaces au lieu des tabulations, car PEP8 recommande d'utiliser 4 espaces pour chaque niveau d'indentation.
+- Définissez le nombre d'espaces par indentation à 4.
+
+## Pour commencer
+
+- Configurer votre projet : Une fois Spyder ouvert, allez dans le menu "Projets" et créez un nouveau projet
+- Donnez un nom à votre projet et choisissez un répertoire pour le stocker
+- Écrire et exécuter du code : Utilisez l'éditeur de texte de Spyder pour écrire votre code Python
+- Par exemple, vous pouvez écrire un simple script comme print("Hello, World!")
+- Pour exécuter le script, cliquez sur le bouton "Exécuter" dans la barre d'outils ou utilisez le raccourci clavier Ctrl + Entrée
+- Explorer les variables : Utilisez l'Explorateur de Variables pour voir les valeurs de vos variables pendant l'exécution de votre programme
+- Vous pouvez trouver cet outil dans l'onglet "Variables" à droite de l'interface
+- Accéder à la documentation : Pour obtenir la documentation d'une fonction ou d'un module, placez simplement le curseur sur le nom de la fonction ou du module et appuyez sur la touche F11
 
 ## Feedback
 
