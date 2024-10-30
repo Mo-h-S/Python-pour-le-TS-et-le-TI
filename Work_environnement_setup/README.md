@@ -140,29 +140,29 @@ Si vous êtes arrivé jusqu'ici, félicitations ! Votre environnement de travail
 Les environnements virtuels sont un outil précieux qui permet de gérer plusieurs installations Python distinctes. C'est particulièrement utile lorsque vous travaillez sur plusieurs projets Python simultanément. Plutôt que de maintenir une installation unique et encombrée avec tous les packages imaginables, les environnements virtuels assurent que chaque projet a son propre espace propre avec seulement les outils nécessaires.
 
 - Pour configurer votre premier environnement virtuel, ouvrez le Terminal sur macOS ou l'Anaconda Prompt sur Windows. Ensuite, créez un nouvel environnement virtuel avec la commande suivante :
-
+```bash
 conda create --name Lab1 python=3.4
-
+```
 Ici, le paramètre --name spécifie le nom de l'environnement virtuel, dans ce cas, "Lab1". Le paramètre python=3.4 est facultatif mais indique que cet environnement virtuel doit utiliser la version 3.4.x de Python, assurant que tout le monde utilise la même version de Python.
 
 Conda peut installer quelques packages, en vous demandant confirmation avant de continuer. Une fois l'installation terminée, activez l'environnement conda que vous venez de créer en tapant conda activate Lab1 sur macOS ou activate Lab1 sur Windows. Votre invite de commande devrait maintenant afficher le nom de l'environnement entre crochets avant la ligne de commande, comme ceci :
-
+```bash
 (Lab1) ➜  ~
-
+```
 Cela confirme que vous êtes maintenant dans l'environnement que vous venez de créer et que tous les packages Python que vous installerez resteront dans ce sandbox. Ensuite, installons quelques outils de base :
 
 conda install numpy jupyter pip matplotlib
 
 Vous pouvez lister autant de noms de packages que nécessaire après le mot-clé install, et conda les installera tous en une fois. Encore une fois, il peut vous demander confirmation avant d'installer des packages que vous n'avez pas déjà.
 
-pour acceder a cette envirenement tapez:
-
+Pour accéder à cet environnement, tapez:
+```bash
 conda activate ./envs
-
+```
 Vous pouvez désactiver votre environnement à tout moment en utilisant la commande conda deactivate sur macOS, ou simplement deactivate sur Windows.
-
+```bash
 conda deactivate ./envs
-
+```
 for more information check this link : https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
 ## Feedback
