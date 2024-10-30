@@ -22,6 +22,18 @@ Des entreprises comme Netflix, Spotify et NASA utilisent Python pour diverses ap
 * Multiplateforme
 * Fort soutien communautaire
 
+## Versions de Python
+Python possède deux versions principales que vous pouvez rencontrer lors de l’installation du langage :
+
+- Python 2.x
+Il s'agit de l'ancienne version de Python, dont la dernière version est Python 2.7.18. Bien que Python 2.x soit encore utilisé dans certaines applications anciennes, il est important de noter qu'il a atteint sa fin de vie en janvier 2020. Cela signifie qu'aucune mise à jour ou correction de bogue ne sera plus fournie. Par conséquent, il est fortement recommandé d’utiliser Python 3.x pour les nouveaux projets.
+
+- Python 3.x
+C’est la version actuelle et activement maintenue de Python, avec des mises à jour et des améliorations continues. Python 3.x a apporté de nombreuses améliorations et modifications au langage, le rendant plus efficace et plus puissant. C’est la version recommandée pour tous les nouveaux projets et installations.
+
+Comment installer Python
+Nous allons maintenant vous guider dans le processus d’installation de la dernière version de Python sur le système d’exploitation de votre choix.
+
 ## Prérequis pour l'installation
 - Connaissances informatiques de base Familiarité avec la ligne de commande  
 - Ordinateur avec connexion Internet
@@ -68,7 +80,7 @@ Télécharger le programme d'installation depuis le site officiel d'anaconda
 | Système   | Lien      | 
 | :-------  | :-------  | 
 | Windows  | https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Windows-x86_64.exe  |
-| Ubuntu | :https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh  | 
+| Ubuntu | https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh  | 
 | MacOS | https://repo.anaconda.com/archive/Anaconda3-2024.10-1-MacOSX-arm64.pkg  | 
 
 Ouvrir Anaconda Navigator : Lancez Anaconda Navigator depuis le menu de votre système d'exploitation ou en utilisant le terminal avec la commande anaconda-navigator.
@@ -77,7 +89,13 @@ Ouvrir Anaconda Navigator : Lancez Anaconda Navigator depuis le menu de votre sy
 
   Et voila !!!!!
 
-## Avant de commencer
+Pour verifier la version de python tapez dans le terminal:
+
+python --version
+
+Si tout est en ordre, vous n'avez plus besoin de faire quoi que ce soit. Cependant, si vous souhaitez séparer vos projets et travailler avec des environnements distincts, tout en installant uniquement les librairies nécessaires pour chaque projet, il est essentiel de configurer un environnement virtuel (Voir la section Configuration d'un Environnement Virtuel).
+
+Maintenant que tout est en place, il ne reste plus qu'une dernière étape.
 
 ### Configuration de spyder 
 
@@ -103,6 +121,9 @@ Allez dans Préférences.
 - Sélectionnez Utiliser des espaces au lieu des tabulations, car PEP8 recommande d'utiliser 4 espaces pour chaque niveau d'indentation.
 - Définissez le nombre d'espaces par indentation à 4.
 
+
+Si vous êtes arrivé jusqu'ici, félicitations ! Votre environnement de travaill est maintenant configuré.
+
 ## Pour commencer
 
 - Configurer votre projet : Une fois Spyder ouvert, allez dans le menu "Projets" et créez un nouveau projet
@@ -113,6 +134,36 @@ Allez dans Préférences.
 - Explorer les variables : Utilisez l'Explorateur de Variables pour voir les valeurs de vos variables pendant l'exécution de votre programme
 - Vous pouvez trouver cet outil dans l'onglet "Variables" à droite de l'interface
 - Accéder à la documentation : Pour obtenir la documentation d'une fonction ou d'un module, placez simplement le curseur sur le nom de la fonction ou du module et appuyez sur la touche F11
+
+
+### Configuration d'un Environnement Virtuel
+Les environnements virtuels sont un outil précieux qui permet de gérer plusieurs installations Python distinctes. C'est particulièrement utile lorsque vous travaillez sur plusieurs projets Python simultanément. Plutôt que de maintenir une installation unique et encombrée avec tous les packages imaginables, les environnements virtuels assurent que chaque projet a son propre espace propre avec seulement les outils nécessaires.
+
+- Pour configurer votre premier environnement virtuel, ouvrez le Terminal sur macOS ou l'Anaconda Prompt sur Windows. Ensuite, créez un nouvel environnement virtuel avec la commande suivante :
+
+conda create --name Lab1 python=3.4
+
+Ici, le paramètre --name spécifie le nom de l'environnement virtuel, dans ce cas, "Lab1". Le paramètre python=3.4 est facultatif mais indique que cet environnement virtuel doit utiliser la version 3.4.x de Python, assurant que tout le monde utilise la même version de Python.
+
+Conda peut installer quelques packages, en vous demandant confirmation avant de continuer. Une fois l'installation terminée, activez l'environnement conda que vous venez de créer en tapant conda activate Lab1 sur macOS ou activate Lab1 sur Windows. Votre invite de commande devrait maintenant afficher le nom de l'environnement entre crochets avant la ligne de commande, comme ceci :
+
+(Lab1) ➜  ~
+
+Cela confirme que vous êtes maintenant dans l'environnement que vous venez de créer et que tous les packages Python que vous installerez resteront dans ce sandbox. Ensuite, installons quelques outils de base :
+
+conda install numpy jupyter pip matplotlib
+
+Vous pouvez lister autant de noms de packages que nécessaire après le mot-clé install, et conda les installera tous en une fois. Encore une fois, il peut vous demander confirmation avant d'installer des packages que vous n'avez pas déjà.
+
+pour acceder a cette envirenement tapez:
+
+conda activate ./envs
+
+Vous pouvez désactiver votre environnement à tout moment en utilisant la commande conda deactivate sur macOS, ou simplement deactivate sur Windows.
+
+conda deactivate ./envs
+
+for more information check this link : https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
 ## Feedback
 
