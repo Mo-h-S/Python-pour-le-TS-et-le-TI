@@ -1,4 +1,4 @@
-# Signal and Image Processing with Python
+# Signal and Image Processing with Python 
 
 ## Introduction
 
