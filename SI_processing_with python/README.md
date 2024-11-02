@@ -1,8 +1,14 @@
 # Python pour le TS et le TI
 ## La transition Matlab/Python 
+
 Pour aider le passage de matlab à python  : voir [ici](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html#general-purpose-equivalents)
 
 Ou vous trouvez un résumé des correspondances  Matlab/ Python
+
+### Les différences entre matlab et python qui peuvent gêner au départ 
+Pour aider le passage de matlab à python au niveau de la syntax : voir [ici](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html#general-purpose-equivalents)
+
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/https://github.com/Mohamed-sra/Python-pour-le-TS-et-le-TI/blob/main/SI_processing_with%20python/Matlab%20to%20Python.ipynb)
 
 ## Le traitement du signal et des images avec python
 
