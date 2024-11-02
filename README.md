@@ -11,12 +11,12 @@ The envirenement setup folder contains installation guide to setup the envirenem
 - Introduction to Python
 - An installation guide of Python on diferent operating systems 
 - Lazy guide to setup the envirenement work
-- Configration of the IDLE (Spdeyr)
+- Configration of the IDLE (Spyder)
 - Managing Envirements
 
 ## Getting Started 
 The second  folder contains the essential libraries to perform the needed processing.
-**/!\/**: Ensure you have Python and the necessary libraries installed (see link). 
+/!\ : Ensure you have Python and the necessary libraries installed (see link). 
 The primary libraries used are:
   ### libraries for data manipulation
    - NumPy / Pandas
