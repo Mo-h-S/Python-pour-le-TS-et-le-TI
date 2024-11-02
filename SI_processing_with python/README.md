@@ -1,4 +1,8 @@
 # Python pour le TS et le TI
+## La transition Matlab/Python 
+Pour aider le passage de matlab à python  : voir [ici](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html#general-purpose-equivalents)
+
+Ou vous trouvez un résumé des correspondances  Matlab/ Python
 
 ## Le traitement du signal et des images avec python
 
@@ -36,6 +40,9 @@ import pandas as pd
 ```python
 import cv2
 ```
+
+
+
 
 Utilisation des Outils
 1. NumPy et SciPy pour le Traitement du Signal
