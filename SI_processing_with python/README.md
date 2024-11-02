@@ -72,7 +72,7 @@ Ou ouvrez-le sur Colab
 
 Le traitement du signal et des images avec Python est une discipline enrichissante qui permet d'analyser et de transformer des données numériques pour divers usages. Les bibliothèques comme NumPy, SciPy, Matplotlib et OpenCV offrent des outils puissants pour réaliser ces tâches. En utilisant ces outils, vous pouvez explorer une multitude de possibilités et applications dans le monde de la science des données et de l'ingénierie.
 
-Conclusion
+## Conclusion
 En conclusion, ce dépôt vise à faciliter la transition des utilisateurs de MATLAB vers Python pour le traitement du signal et d'image, tout en mettant en lumière les avantages et la puissance de l'écosystème Python dans ce domaine.
 ## Feedback
 If you have any feedback, please reach out to us.
