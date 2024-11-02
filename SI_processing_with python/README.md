@@ -1,6 +1,6 @@
 # Python pour le TS et le TI
 ## La transition Matlab/Python 
-Pour aider le passage de matlab à python  : voir [ici]([https://linktodocumentation](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html#general-purpose-equivalents))
+Pour aider le passage de matlab à python  : voir [ici](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html#general-purpose-equivalents)
 
 Ou vous trouvez un résumé des correspondances  Matlab/ Python
 
