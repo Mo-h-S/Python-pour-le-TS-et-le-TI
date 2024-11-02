@@ -8,7 +8,7 @@ Ou vous trouvez un résumé des correspondances  Matlab/ Python
 ### Les différences entre matlab et python qui peuvent gêner au départ 
 Pour aider le passage de matlab à python au niveau de la syntax : voir [ici](https://github.com/Mohamed-sra/Python-pour-le-TS-et-le-TI/blob/main/SI_processing_with%20python/Matlab%20to%20Python.ipynb)
 
-The same file you can open in colab 
+The same file you can open it in colab 
 
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mohamed-sra/Python-pour-le-TS-et-le-TI/blob/main/SI_processing_with%20python/Matlab%20to%20Python.ipynb)
 
