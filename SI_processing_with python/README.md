@@ -67,7 +67,7 @@ voir :
 
 Ou ouvrez-le sur Colab
 
-[![Open In Collab](https://colab.research.google.com/github/Mohamed-sra/Python-pour-le-TS-et-le-TI/blob/main/SI_processing_with%20python/Traitement%20du%20signal%20et%20d'image%20avec%20python.ipynb)
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mohamed-sra/Python-pour-le-TS-et-le-TI/blob/main/SI_processing_with%20python/Traitement%20du%20signal%20et%20d'image%20avec%20python.ipynb)
 
 
 Le traitement du signal et des images avec Python est une discipline enrichissante qui permet d'analyser et de transformer des données numériques pour divers usages. Les bibliothèques comme NumPy, SciPy, Matplotlib et OpenCV offrent des outils puissants pour réaliser ces tâches. En utilisant ces outils, vous pouvez explorer une multitude de possibilités et applications dans le monde de la science des données et de l'ingénierie.## Feedback
